@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,18 @@
     <meta property="description" content="Uma form simples com select">
     <meta name="twitter:tittle" content="Form selection">
 </head>
+
 <body>
-    
+    <form>
+        <label for="plano">Planos</label>
+        <select name="plano" required="true" id="plano">
+            <option value="">Escolher Plano</option>
+            <option value="free">Free</option>
+            <option value="premium">Premium</option>
+            <option value="pro">Pro</option>
+        </select>
+        <button type="submit">Cadastrar</button>
+    </form>
 </body>
+
 </html>
